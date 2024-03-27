@@ -27,10 +27,13 @@ public class Main {
                     MessageServices.createMessage();
                     break;
                 case 2:
+                    MessageServices.listMessages();
                     break;
                 case 3:
+                    MessageServices.updateMessage();
                     break;
                 case 4:
+                    MessageServices.deleteMessage();
                     break;
                 default:
                     break;
